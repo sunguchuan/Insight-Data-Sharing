@@ -6,3 +6,9 @@ As the network environment is insecure nowadays. People take risks when they are
 In order to achieve this goal, there are mainly 3 tools used in my project:
 ### Smart contract
 The reason of using smart contract is that it provides the trust-worth: After deployed on Ethereum, a smart contract becomes an immutable program, whose source code and stored data are public. As a result, it only does what it is told to and everone can check its correctness. For more details you can refer to this [white paper](https://github.com/ethereum/wiki/wiki/White-Paper).
+### IPFS
+IPFS (InterPlanet File System) is a distributed system where files are divided to blocks, the hashes of which aggregate to a Merkle tree. The root hash of the Merkle is the index to this file and only users who have this hash can download the file. It provides a fast, secure way of file transmission. Besides, it is free to use, which makes it much cheaper than Ethereum in terms of large file transmission. You may refer to the introduction of IPFS [here](https://github.com/ipfs/ipfs).
+### RSA key pair
+RSA key pair is a classic encryption tool and is widely used in crytocurrencies. There is no need to emphasize its security. With the help of RSA key pairs, the sensitive plain text become cipher text that is uninterpretable to anyone except key holders. There is no need to data exposure into Ethereum.
+
+## 
