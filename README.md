@@ -1,6 +1,6 @@
 # Insight-Data-Sharing
 Enabling secure information transmission via smart contract
-### Guchuan Sun
+#### Guchuan Sun
 ## Project motivation
 As the network environment is insecure nowadays. People take risks when they are transmitting sensitive information because malicious users can steal the information by monitoring the channels and blockchains. My project aims at creating a trust-worthy, light-weight and encrypted environment that enables secure information transmission.
 
