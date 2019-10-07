@@ -15,4 +15,4 @@ RSA key pair is a classic encryption tool and is widely used in crytocurrencies.
 
 ## Flow chart
 Here is a example of sharing my resume to the hiring manager, the process is shown in the below image:
-[](./images/Flow_chart.png)
+![alt text](/images/Flow_chart.png)
