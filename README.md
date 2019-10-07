@@ -1,6 +1,6 @@
 # Insight-Data-Sharing
 Enabling secure information transmission via smart contract
-by Guchuan Sun
+### Guchuan Sun
 ## Project motivation
 As the network environment is insecure nowadays. People take risks when they are transmitting sensitive information because malicious users can steal the information by monitoring the channels and blockchains. My project aims at creating a trust-worthy, light-weight and encrypted environment that enables secure information transmission.
 
@@ -15,4 +15,7 @@ RSA key pair is a classic encryption tool and is widely used in crytocurrencies.
 
 ## Flow chart
 Here is a example of sharing my resume to the hiring manager, the process is shown in the below image:
-![alt text](/images/Flow_chart.png)
+![pic](/images/Flow_chart.png)
+
+## Technical support
+There are smart contracts implemented with Solidity, Vyper and TypeScript. For details of running code in different environments, please check details in the corresponding folders.
