@@ -1,4 +1,6 @@
 # Insight-Data-Sharing
+Enabling secure information transmission via smart contract
+by Guchuan Sun
 ## Project motivation
 As the network environment is insecure nowadays. People take risks when they are transmitting sensitive information because malicious users can steal the information by monitoring the channels and blockchains. My project aims at creating a trust-worthy, light-weight and encrypted environment that enables secure information transmission.
 
@@ -11,4 +13,5 @@ IPFS (InterPlanet File System) is a distributed system where files are divided t
 ### RSA key pair
 RSA key pair is a classic encryption tool and is widely used in crytocurrencies. There is no need to emphasize its security. With the help of RSA key pairs, the sensitive plain text become cipher text that is uninterpretable to anyone except key holders. There is no need to data exposure into Ethereum.
 
-## 
+## Flow chart
+Here is a example of sharing my resume to the hiring manager, the process is shown in the below image:
