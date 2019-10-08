@@ -5,9 +5,9 @@ It is strongly recommened that the test is run in Linux or MacOS.
 You need to run a Ganachi Ethereum testnet. You may refer [here](https://github.com/trufflesuite/ganache-cli) for more details of setting up the testnet.
 ### Python3
 The application is implemented in python3. There are also some extra modules needed, you may use pip to install them:
-*web3
-*rsa
-*ipfsapi
+* web3
+* rsa
+* ipfsapi
 ## Run test
 In ./Guchuan, run the following command in the terminal to deploy the smart contract:
 
