@@ -25,6 +25,6 @@ Within 15 seconds, in ./Guchuan, run the following command to retrieve the share
 ```
 python3 guchuan_share.py <address>
 ```
-You can check in ./Hiring Manager that the file is downloaded and pops out!
+You can check in `./Hiring Manager` that the file is downloaded and pops out!
 ## Change to vyper contract
-You may test the smart contract implemented by vyper by compiling fileshare.vy and replace the output json files in ./Guchuan and ./Hiring Manager. A suggested compiler is [Truffle](https://github.com/trufflesuite/truffle)
+You may test the smart contract implemented by vyper by compiling fileshare.vy and replace the output json files in `./Guchuan` and `./Hiring Manager`. A suggested compiler is [Truffle](https://github.com/trufflesuite/truffle)
