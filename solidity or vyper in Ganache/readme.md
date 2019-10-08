@@ -9,22 +9,22 @@ The application is implemented in python3. There are also some extra modules nee
 * rsa
 * ipfsapi
 ## Run test
-In ./Guchuan, run the following command in the terminal to deploy the smart contract:
+In `./Guchuan`, run the following command in the terminal to deploy the smart contract:
 
 ```
 python3 init_contract.py test.txt
 ```
-After a few seconds, the contract is deployed and the terminal prints the <address> of this contract.
-In ./Hiring Manager, run the following command in the terminal to generate an RSA key pair and share the public key to the contract:
+After a few seconds, the contract is deployed and the terminal prints the `<address>` of this contract.
+In `./Hiring Manager`, run the following command in the terminal to generate an RSA key pair and share the public key to the contract:
 
 ```
 python3 hiring_manager.py <address>
 ```
-Within 15 seconds, in ./Guchuan, run the following command to retrieve the shared key, upload file to IPFS, do encryption, and upload encrypted IPFS hash:
+Within 15 seconds, in `./Guchuan`, run the following command to retrieve the shared key, upload file to IPFS, do encryption, and upload encrypted IPFS hash:
 
 ```
 python3 guchuan_share.py <address>
 ```
 You can check in `./Hiring Manager` that the file is downloaded and pops out!
 ## Change to vyper contract
-You may test the smart contract implemented by vyper by compiling fileshare.vy and replace the output json files in `./Guchuan` and `./Hiring Manager`. A suggested compiler is [Truffle](https://github.com/trufflesuite/truffle)
+You may test the smart contract implemented by vyper by compiling fileshare.vy and replace the output json files in `./Guchuan` and `./Hiring Manager`. A suggested compiler is [Truffle](https://github.com/trufflesuite/truffle).
